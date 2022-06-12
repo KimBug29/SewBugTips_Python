@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+        <meta charset="UTF-8">
+        <!--TITLE IS DISPLAYED IN BROWSER TAB-->
+        <title>Inches to cm Length Converter</title>
+        <!--THE META DESCRIPTION INFO IS USED IN SEARCH ENGINES (according to developer.mozilla.org)-->
+        <meta name="author" content="Kim Wolf">
+        <meta name="description" content="Sew Bug Tips aims to provide sewing information and tips to beginners.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--ADD GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital@0;1&display=swap" rel="stylesheet">
+    
+        <!--ADDS FAVICON TO TAB-->
+        <link rel="icon" type="image/jpg" href="images/bug.jpeg">
+        <!--ADDS FONT AWESOME CODE-->
+        <script src="https://kit.fontawesome.com/fab5d2891a.js" crossorigin="anonymous"></script>
+        <!--ADDS STYLES/CSS TO SITE-->
+        <link rel="stylesheet" href="styles/main.css">  
+        
+</head>
+
+<body>
+
+<h2>Length Converter</h2>
+
+<section id="lengthConverter">
+    <div class="converter-container">
+            <span> Enter a value in the Inches field to convert the value to cm:
+            </span>  
+            <p>
+                <label>Inches</label>
+                <input id="inputInches" type="number" placeholder="Inches" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+              </p>
+              <p>cm: <span id="outputcm"></span>            
+              </p>
+            
+
+              <figure>
+                <img src="images/tapeMeasure.jpg" alt="Tape Measure image" title="Tape Measure"/>
+                <figcaption>Return to <a href="index.html">MAIN page</a></figcaption>                
+            </figure>
+              
+            
+    </div>
+</section>
+
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputcm").innerHTML=valNum/0.39370;
+}
+</script>
+</body>
+</html>

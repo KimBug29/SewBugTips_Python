@@ -1,0 +1,40 @@
+{
+    "preCuts":[
+        {
+            "name": "Honey Buns",
+            "description": "1.5 in x Width of Fabric (WOF)",
+            "image": "images/honey_bun.jpg",
+            "alt": "Honey Buns image"      
+        },
+        {
+            "name": "Jelly Rolls",
+            "description": "2.5 in x Width of Fabric (WOF)",
+            "image": "images/jelly_roll.jpg",
+            "alt": "Jelly Rolls image" 
+        },
+        {
+            "name": "Mini Charm Squares",
+            "description": "2.5 in x 2.5 in per piece",
+            "image": "images/mini_charm_pack.jpg",
+            "alt": "Mini Charm Packs image" 
+        },
+        {
+            "name": "Charm Packs",
+            "description": "5 in x 5 in per piece",
+            "image": "images/charm_pack.jpg",
+            "alt": "Charm Pack image" 
+        },
+        {
+            "name": "Layer Cakes",
+            "description": "10 in by 10 in per piece",
+            "image": "images/layer_cake_single.jpg",
+            "alt": "Layer Cakes image" 
+        },
+        {
+            "name": "Fat Quarters",
+            "description": "18 in x 22 in per piece",
+            "image": "images/fat_quarters.jpg",
+            "alt": "Fat Quarters image" 
+        }
+    ]
+}
